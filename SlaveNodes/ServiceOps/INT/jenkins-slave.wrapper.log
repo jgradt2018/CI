@@ -1,0 +1,1004 @@
+2017-07-27 16:18:37,765 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-27 16:18:38,130 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM' already exists
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2017-07-27 16:23:21,450 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-27 16:23:21,853 INFO  - Completed. Exit code is 0
+2017-07-27 16:23:22,291 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-27 16:23:23,036 INFO  - Starting ServiceWrapper in the service mode
+2017-07-27 16:23:23,082 INFO  - Completed. Exit code is 0
+2017-07-27 16:23:23,113 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-07-27 16:23:23,728 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-27 16:23:23,751 INFO  - Extension loaded: killOnStartup
+2017-07-27 16:23:23,765 WARN  - The requested PID file 'D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid' does not exist. The runaway process won't be checked
+2017-07-27 16:23:23,771 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-27 16:23:23,795 INFO  - Started process 1812
+2017-07-27 16:23:23,801 INFO  - Recording PID of the started process:1812. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-07-27 16:23:28,720 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-27 16:23:29,208 WARN  - User requested the status
+2017-07-27 16:23:29,216 INFO  - Completed. Exit code is 0
+2017-07-28 01:09:14,339 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 01:09:14,340 DEBUG - ProcessKill 1812
+2017-07-28 01:09:14,491 WARN  - Failed to locate children of the process with PID=1812. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-07-28 01:09:14,522 INFO  - Stopping process 1812
+2017-07-28 01:09:14,522 INFO  - Send SIGINT 1812
+2017-07-28 01:09:14,600 INFO  - SIGINT to1812 successful
+2017-07-28 01:09:14,616 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 01:09:14,616 INFO  - Completed. Exit code is 0
+2017-07-28 01:10:05,074 INFO  - Starting ServiceWrapper in the service mode
+2017-07-28 01:10:05,136 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-07-28 01:11:31,732 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 01:11:31,795 INFO  - Extension loaded: killOnStartup
+2017-07-28 01:11:31,841 DEBUG - Checking the potentially runaway process with PID=1812
+2017-07-28 01:11:31,935 DEBUG - No runaway process with PID=1812. The process has been already stopped.
+2017-07-28 01:11:31,935 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 01:11:32,122 INFO  - Started process 3728
+2017-07-28 01:11:32,138 INFO  - Recording PID of the started process:3728. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-07-28 01:11:39,103 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-28 01:11:39,703 WARN  - User requested the status
+2017-07-28 01:11:39,710 INFO  - Completed. Exit code is 0
+2017-07-28 01:20:47,176 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 01:20:47,176 DEBUG - ProcessKill 3728
+2017-07-28 01:20:47,453 WARN  - Failed to locate children of the process with PID=3728. Child processes won't be terminated
+System.Management.ManagementException: Shutting down 
+   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-07-28 01:20:47,620 INFO  - Stopping process 3728
+2017-07-28 01:20:47,621 INFO  - Send SIGINT 3728
+2017-07-28 01:20:47,636 INFO  - SIGINT to3728 successful
+2017-07-28 01:20:47,641 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 01:20:47,642 INFO  - Completed. Exit code is 0
+2017-07-28 01:22:01,577 INFO  - Starting ServiceWrapper in the service mode
+2017-07-28 01:22:01,624 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-07-28 01:23:27,487 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 01:23:27,518 INFO  - Extension loaded: killOnStartup
+2017-07-28 01:23:27,549 DEBUG - Checking the potentially runaway process with PID=3728
+2017-07-28 01:23:27,611 DEBUG - No runaway process with PID=3728. The process has been already stopped.
+2017-07-28 01:23:27,611 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 01:23:27,721 INFO  - Started process 3468
+2017-07-28 01:23:27,752 INFO  - Recording PID of the started process:3468. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-07-28 01:23:33,738 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-28 01:23:34,334 WARN  - User requested the status
+2017-07-28 01:23:34,340 INFO  - Completed. Exit code is 0
+2017-07-28 02:41:21,526 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 02:41:21,526 DEBUG - ProcessKill 3468
+2017-07-28 02:41:21,769 WARN  - Failed to locate children of the process with PID=3468. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-07-28 02:41:21,876 INFO  - Stopping process 3468
+2017-07-28 02:41:21,877 INFO  - Send SIGINT 3468
+2017-07-28 02:41:21,957 INFO  - SIGINT to3468 successful
+2017-07-28 02:41:21,957 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-07-28 02:41:21,957 INFO  - Completed. Exit code is 0
+2017-07-28 02:42:15,776 INFO  - Starting ServiceWrapper in the service mode
+2017-07-28 02:42:15,823 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-07-28 02:43:40,539 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 02:43:40,586 INFO  - Extension loaded: killOnStartup
+2017-07-28 02:43:40,617 DEBUG - Checking the potentially runaway process with PID=3468
+2017-07-28 02:43:40,664 DEBUG - No runaway process with PID=3468. The process has been already stopped.
+2017-07-28 02:43:40,664 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-07-28 02:43:40,758 INFO  - Started process 3580
+2017-07-28 02:43:40,805 INFO  - Recording PID of the started process:3580. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-07-28 02:43:46,221 INFO  - Starting ServiceWrapper in the CLI mode
+2017-07-28 02:43:46,808 WARN  - User requested the status
+2017-07-28 02:43:46,817 INFO  - Completed. Exit code is 0
+2017-08-08 10:36:18,772 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-08 10:36:18,793 DEBUG - ProcessKill 3580
+2017-08-08 10:36:19,428 WARN  - Failed to locate children of the process with PID=3580. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-08 10:36:19,647 INFO  - Stopping process 3580
+2017-08-08 10:36:19,649 INFO  - Send SIGINT 3580
+2017-08-08 10:36:19,682 INFO  - SIGINT to3580 successful
+2017-08-08 10:36:19,682 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-08 10:36:19,760 INFO  - Completed. Exit code is 0
+2017-08-08 10:37:18,114 INFO  - Starting ServiceWrapper in the service mode
+2017-08-08 10:37:18,161 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-08 10:38:47,983 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-08 10:38:47,999 INFO  - Extension loaded: killOnStartup
+2017-08-08 10:38:48,015 DEBUG - Checking the potentially runaway process with PID=3580
+2017-08-08 10:38:48,015 DEBUG - No runaway process with PID=3580. The process has been already stopped.
+2017-08-08 10:38:48,015 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-08 10:38:48,202 INFO  - Started process 3940
+2017-08-08 10:38:48,217 INFO  - Recording PID of the started process:3940. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-08 10:38:54,195 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-08 10:38:54,801 WARN  - User requested the status
+2017-08-08 10:38:54,814 INFO  - Completed. Exit code is 0
+2017-08-17 09:46:56,704 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-17 09:46:56,734 DEBUG - ProcessKill 3940
+2017-08-17 09:46:57,103 WARN  - Failed to locate children of the process with PID=3940. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-17 09:46:57,143 INFO  - Stopping process 3940
+2017-08-17 09:46:57,144 INFO  - Send SIGINT 3940
+2017-08-17 09:46:57,268 INFO  - SIGINT to3940 successful
+2017-08-17 09:46:57,268 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-17 09:46:57,268 INFO  - Completed. Exit code is 0
+2017-08-17 09:47:55,600 INFO  - Starting ServiceWrapper in the service mode
+2017-08-17 09:47:55,662 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-17 09:49:24,441 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-17 09:49:24,503 INFO  - Extension loaded: killOnStartup
+2017-08-17 09:49:24,550 DEBUG - Checking the potentially runaway process with PID=3940
+2017-08-17 09:49:24,675 DEBUG - No runaway process with PID=3940. The process has been already stopped.
+2017-08-17 09:49:24,675 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-17 09:49:24,862 INFO  - Started process 3736
+2017-08-17 09:49:24,878 INFO  - Recording PID of the started process:3736. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-17 09:49:32,135 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-17 09:49:32,975 WARN  - User requested the status
+2017-08-17 09:49:32,979 INFO  - Completed. Exit code is 0
+2017-08-25 01:05:06,608 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 01:05:06,643 DEBUG - ProcessKill 3736
+2017-08-25 01:05:07,105 WARN  - Failed to locate children of the process with PID=3736. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-25 01:05:07,158 INFO  - Stopping process 3736
+2017-08-25 01:05:07,160 INFO  - Send SIGINT 3736
+2017-08-25 01:05:07,242 INFO  - SIGINT to3736 successful
+2017-08-25 01:05:07,242 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 01:05:07,336 INFO  - Completed. Exit code is 0
+2017-08-25 01:06:05,164 INFO  - Starting ServiceWrapper in the service mode
+2017-08-25 01:06:05,227 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-25 01:07:40,844 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 01:07:40,859 INFO  - Extension loaded: killOnStartup
+2017-08-25 01:07:40,875 DEBUG - Checking the potentially runaway process with PID=3736
+2017-08-25 01:07:40,922 DEBUG - No runaway process with PID=3736. The process has been already stopped.
+2017-08-25 01:07:40,937 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 01:07:41,093 INFO  - Started process 3744
+2017-08-25 01:07:41,093 INFO  - Recording PID of the started process:3744. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-25 01:07:48,930 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-25 01:07:50,280 WARN  - User requested the status
+2017-08-25 01:07:50,291 INFO  - Completed. Exit code is 0
+2017-08-25 01:11:54,222 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 01:11:54,222 DEBUG - ProcessKill 3744
+2017-08-25 01:11:54,564 WARN  - Failed to locate children of the process with PID=3744. Child processes won't be terminated
+System.Management.ManagementException: Shutting down 
+   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-25 01:11:54,669 INFO  - Stopping process 3744
+2017-08-25 01:11:54,670 INFO  - Send SIGINT 3744
+2017-08-25 01:11:54,771 INFO  - SIGINT to3744 successful
+2017-08-25 01:11:54,771 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 01:11:54,787 INFO  - Completed. Exit code is 0
+2017-08-25 01:12:59,704 INFO  - Starting ServiceWrapper in the service mode
+2017-08-25 01:12:59,766 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-25 01:14:25,273 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 01:14:25,304 INFO  - Extension loaded: killOnStartup
+2017-08-25 01:14:25,335 DEBUG - Checking the potentially runaway process with PID=3744
+2017-08-25 01:14:25,382 DEBUG - No runaway process with PID=3744. The process has been already stopped.
+2017-08-25 01:14:25,398 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 01:14:25,507 INFO  - Started process 3632
+2017-08-25 01:14:25,507 INFO  - Recording PID of the started process:3632. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-25 01:14:31,511 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-25 01:14:32,380 WARN  - User requested the status
+2017-08-25 01:14:32,388 INFO  - Completed. Exit code is 0
+2017-08-25 02:03:12,477 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 02:03:12,483 DEBUG - ProcessKill 3632
+2017-08-25 02:03:12,726 WARN  - Failed to locate children of the process with PID=3632. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-25 02:03:12,895 INFO  - Stopping process 3632
+2017-08-25 02:03:12,899 INFO  - Send SIGINT 3632
+2017-08-25 02:03:12,915 INFO  - SIGINT to3632 successful
+2017-08-25 02:03:12,922 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 02:03:12,966 INFO  - Completed. Exit code is 0
+2017-08-25 02:03:55,633 INFO  - Starting ServiceWrapper in the service mode
+2017-08-25 02:03:55,711 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-25 02:05:21,358 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 02:05:21,405 INFO  - Extension loaded: killOnStartup
+2017-08-25 02:05:21,452 DEBUG - Checking the potentially runaway process with PID=3632
+2017-08-25 02:05:21,499 DEBUG - No runaway process with PID=3632. The process has been already stopped.
+2017-08-25 02:05:21,514 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 02:05:21,592 INFO  - Started process 3556
+2017-08-25 02:05:21,608 INFO  - Recording PID of the started process:3556. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-25 02:05:28,192 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-25 02:05:28,982 WARN  - User requested the status
+2017-08-25 02:05:29,033 INFO  - Completed. Exit code is 0
+2017-08-25 02:40:55,815 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 02:40:55,816 DEBUG - ProcessKill 3556
+2017-08-25 02:40:56,207 WARN  - Failed to locate children of the process with PID=3556. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80080008): Object server is stopping when OLE service contacts it (Exception from HRESULT: 0x80080008 (CO_E_SERVER_STOPPING))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-25 02:40:56,287 INFO  - Stopping process 3556
+2017-08-25 02:40:56,288 INFO  - Send SIGINT 3556
+2017-08-25 02:40:56,335 INFO  - SIGINT to3556 successful
+2017-08-25 02:40:56,335 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 02:40:56,351 INFO  - Completed. Exit code is 0
+2017-08-25 02:41:28,156 INFO  - Starting ServiceWrapper in the service mode
+2017-08-25 02:41:28,234 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-25 02:42:53,932 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 02:42:53,964 INFO  - Extension loaded: killOnStartup
+2017-08-25 02:42:53,995 DEBUG - Checking the potentially runaway process with PID=3556
+2017-08-25 02:42:54,026 DEBUG - No runaway process with PID=3556. The process has been already stopped.
+2017-08-25 02:42:54,026 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 02:42:54,104 INFO  - Started process 3492
+2017-08-25 02:42:54,120 INFO  - Recording PID of the started process:3492. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-25 02:43:00,038 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-25 02:43:00,590 WARN  - User requested the status
+2017-08-25 02:43:00,608 INFO  - Completed. Exit code is 0
+2017-08-25 03:06:34,109 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 03:06:34,110 DEBUG - ProcessKill 3492
+2017-08-25 03:06:34,412 WARN  - Failed to locate children of the process with PID=3492. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-08-25 03:06:34,457 INFO  - Stopping process 3492
+2017-08-25 03:06:34,458 INFO  - Send SIGINT 3492
+2017-08-25 03:06:34,509 INFO  - SIGINT to3492 successful
+2017-08-25 03:06:34,509 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-08-25 03:06:34,540 INFO  - Completed. Exit code is 0
+2017-08-25 03:07:04,783 INFO  - Starting ServiceWrapper in the service mode
+2017-08-25 03:07:04,845 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-08-25 03:08:29,631 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 03:08:29,662 INFO  - Extension loaded: killOnStartup
+2017-08-25 03:08:29,694 DEBUG - Checking the potentially runaway process with PID=3492
+2017-08-25 03:08:29,740 DEBUG - No runaway process with PID=3492. The process has been already stopped.
+2017-08-25 03:08:29,740 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-08-25 03:08:29,818 INFO  - Started process 3588
+2017-08-25 03:08:29,834 INFO  - Recording PID of the started process:3588. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-08-25 03:08:35,983 INFO  - Starting ServiceWrapper in the CLI mode
+2017-08-25 03:08:36,544 WARN  - User requested the status
+2017-08-25 03:08:36,549 INFO  - Completed. Exit code is 0
+2017-10-02 13:19:21,729 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-02 13:19:22,290 INFO  - Completed. Exit code is 0
+2017-10-02 13:19:22,587 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-02 13:19:22,961 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-02 13:19:22,977 DEBUG - ProcessKill 3588
+2017-10-02 13:19:23,257 INFO  - Stopping process 3588
+2017-10-02 13:19:23,257 INFO  - Send SIGINT 3588
+2017-10-02 13:19:23,289 INFO  - SIGINT to3588 successful
+2017-10-02 13:19:23,304 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-02 13:19:23,304 INFO  - Completed. Exit code is 0
+2017-10-02 13:19:24,852 INFO  - Starting ServiceWrapper in the service mode
+2017-10-02 13:19:24,898 INFO  - Completed. Exit code is 0
+2017-10-02 13:19:24,914 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-02 13:19:25,341 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-02 13:19:25,357 INFO  - Extension loaded: killOnStartup
+2017-10-02 13:19:25,372 DEBUG - Checking the potentially runaway process with PID=3588
+2017-10-02 13:19:25,372 DEBUG - No runaway process with PID=3588. The process has been already stopped.
+2017-10-02 13:19:25,388 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-02 13:19:25,404 INFO  - Started process 16116
+2017-10-02 13:19:25,404 INFO  - Recording PID of the started process:16116. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-02 13:19:30,223 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-02 13:19:30,790 WARN  - User requested the status
+2017-10-02 13:19:30,798 INFO  - Completed. Exit code is 0
+2017-10-07 01:14:05,577 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-07 01:14:05,626 DEBUG - ProcessKill 16116
+2017-10-07 01:14:06,527 WARN  - Failed to locate children of the process with PID=16116. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-10-07 01:14:06,648 INFO  - Stopping process 16116
+2017-10-07 01:14:06,649 INFO  - Send SIGINT 16116
+2017-10-07 01:14:06,769 INFO  - SIGINT to16116 successful
+2017-10-07 01:14:06,769 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-07 01:14:06,847 INFO  - Completed. Exit code is 0
+2017-10-07 01:15:12,746 INFO  - Starting ServiceWrapper in the service mode
+2017-10-07 01:15:12,777 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-07 01:16:46,596 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-07 01:16:46,611 INFO  - Extension loaded: killOnStartup
+2017-10-07 01:16:46,627 DEBUG - Checking the potentially runaway process with PID=16116
+2017-10-07 01:16:46,627 DEBUG - No runaway process with PID=16116. The process has been already stopped.
+2017-10-07 01:16:46,643 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-07 01:16:46,892 INFO  - Started process 3752
+2017-10-07 01:16:46,908 INFO  - Recording PID of the started process:3752. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-07 01:16:55,417 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-07 01:16:56,125 WARN  - User requested the status
+2017-10-07 01:16:56,132 INFO  - Completed. Exit code is 0
+2017-10-07 01:32:56,936 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-07 01:32:56,937 DEBUG - ProcessKill 3752
+2017-10-07 01:32:57,130 WARN  - Failed to locate children of the process with PID=3752. Child processes won't be terminated
+System.Management.ManagementException: Provider failure 
+   at System.Management.ManagementException.ThrowWithExtendedInfo(ManagementStatus errorCode)
+   at System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-10-07 01:32:57,137 INFO  - Stopping process 3752
+2017-10-07 01:32:57,138 INFO  - Send SIGINT 3752
+2017-10-07 01:32:57,198 INFO  - SIGINT to3752 successful
+2017-10-07 01:32:57,198 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-07 01:32:57,214 INFO  - Completed. Exit code is 0
+2017-10-07 01:34:16,412 INFO  - Starting ServiceWrapper in the service mode
+2017-10-07 01:34:16,490 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-07 01:35:41,703 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-07 01:35:41,828 INFO  - Extension loaded: killOnStartup
+2017-10-07 01:35:41,875 DEBUG - Checking the potentially runaway process with PID=3752
+2017-10-07 01:35:41,937 DEBUG - No runaway process with PID=3752. The process has been already stopped.
+2017-10-07 01:35:41,937 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-07 01:35:42,109 INFO  - Started process 3472
+2017-10-07 01:35:42,171 INFO  - Recording PID of the started process:3472. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-07 01:35:49,304 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-07 01:35:50,438 WARN  - User requested the status
+2017-10-07 01:35:50,447 INFO  - Completed. Exit code is 0
+2017-10-15 00:07:12,600 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 00:07:13,692 INFO  - Completed. Exit code is 0
+2017-10-15 00:07:13,989 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 00:07:14,581 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 00:07:14,581 DEBUG - ProcessKill 3472
+2017-10-15 00:07:15,205 INFO  - Stopping process 3472
+2017-10-15 00:07:15,205 INFO  - Send SIGINT 3472
+2017-10-15 00:07:15,299 INFO  - SIGINT to3472 successful
+2017-10-15 00:07:15,315 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 00:07:15,315 INFO  - Completed. Exit code is 0
+2017-10-15 00:07:16,079 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 00:07:16,095 INFO  - Completed. Exit code is 0
+2017-10-15 00:07:16,141 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 00:07:16,547 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 00:07:16,578 INFO  - Extension loaded: killOnStartup
+2017-10-15 00:07:16,594 DEBUG - Checking the potentially runaway process with PID=3472
+2017-10-15 00:07:16,609 DEBUG - No runaway process with PID=3472. The process has been already stopped.
+2017-10-15 00:07:16,609 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 00:07:16,672 INFO  - Started process 5236
+2017-10-15 00:07:16,703 INFO  - Recording PID of the started process:5236. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 00:07:30,877 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 00:07:31,236 WARN  - User requested the status
+2017-10-15 00:07:31,245 INFO  - Completed. Exit code is 0
+2017-10-15 01:03:47,774 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 01:03:48,007 INFO  - Completed. Exit code is 0
+2017-10-15 01:03:48,232 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 01:03:48,495 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 01:03:48,495 DEBUG - ProcessKill 5236
+2017-10-15 01:03:48,760 INFO  - Stopping process 5236
+2017-10-15 01:03:48,766 INFO  - Send SIGINT 5236
+2017-10-15 01:03:48,783 INFO  - SIGINT to5236 successful
+2017-10-15 01:03:48,790 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 01:03:48,791 INFO  - Completed. Exit code is 0
+2017-10-15 01:03:49,830 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 01:03:49,857 INFO  - Completed. Exit code is 0
+2017-10-15 01:03:50,234 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:03:50,245 INFO  - Extension loaded: killOnStartup
+2017-10-15 01:03:50,256 DEBUG - Checking the potentially runaway process with PID=5236
+2017-10-15 01:03:50,267 DEBUG - No runaway process with PID=5236. The process has been already stopped.
+2017-10-15 01:03:50,268 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:03:50,283 INFO  - Started process 9912
+2017-10-15 01:03:50,288 INFO  - Recording PID of the started process:9912. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 01:05:16,816 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 01:05:16,862 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 01:05:20,219 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:05:20,234 INFO  - Extension loaded: killOnStartup
+2017-10-15 01:05:20,246 DEBUG - Checking the potentially runaway process with PID=9912
+2017-10-15 01:05:20,255 DEBUG - No runaway process with PID=9912. The process has been already stopped.
+2017-10-15 01:05:20,255 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:05:20,271 INFO  - Started process 5980
+2017-10-15 01:05:20,275 INFO  - Recording PID of the started process:5980. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 01:24:35,783 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 01:24:35,830 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 01:24:56,890 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 10.148.133.57:8443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-10-15 01:24:56,906 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:24:56,921 INFO  - Extension loaded: killOnStartup
+2017-10-15 01:24:56,921 DEBUG - Checking the potentially runaway process with PID=5980
+2017-10-15 01:24:56,937 DEBUG - No runaway process with PID=5980. The process has been already stopped.
+2017-10-15 01:24:56,937 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 01:24:56,952 INFO  - Started process 7192
+2017-10-15 01:24:56,952 INFO  - Recording PID of the started process:7192. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 03:14:15,699 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 03:14:16,054 WARN  - User requested the status
+2017-10-15 03:14:16,065 INFO  - Completed. Exit code is 0
+2017-10-15 03:19:57,419 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 03:19:57,783 INFO  - Completed. Exit code is 0
+2017-10-15 03:19:58,119 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 03:19:58,543 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 03:19:58,544 DEBUG - ProcessKill 7192
+2017-10-15 03:19:58,938 INFO  - Stopping process 7192
+2017-10-15 03:19:58,946 INFO  - Send SIGINT 7192
+2017-10-15 03:19:58,982 INFO  - SIGINT to7192 successful
+2017-10-15 03:19:58,993 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 03:19:58,995 INFO  - Completed. Exit code is 0
+2017-10-15 03:20:00,070 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 03:20:00,114 INFO  - Completed. Exit code is 0
+2017-10-15 03:20:04,075 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 03:20:04,090 INFO  - Extension loaded: killOnStartup
+2017-10-15 03:20:04,103 DEBUG - Checking the potentially runaway process with PID=7192
+2017-10-15 03:20:04,111 DEBUG - No runaway process with PID=7192. The process has been already stopped.
+2017-10-15 03:20:04,112 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 03:20:04,127 INFO  - Started process 1584
+2017-10-15 03:20:04,131 INFO  - Recording PID of the started process:1584. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 03:20:52,087 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 03:20:52,132 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 03:21:09,493 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 03:21:09,517 INFO  - Extension loaded: killOnStartup
+2017-10-15 03:21:09,537 DEBUG - Checking the potentially runaway process with PID=1584
+2017-10-15 03:21:09,551 DEBUG - No runaway process with PID=1584. The process has been already stopped.
+2017-10-15 03:21:09,552 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 03:21:09,575 INFO  - Started process 7996
+2017-10-15 03:21:09,581 INFO  - Recording PID of the started process:7996. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 04:10:21,317 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 04:10:21,690 WARN  - User requested the status
+2017-10-15 04:10:21,701 INFO  - Completed. Exit code is 0
+2017-10-15 04:42:04,648 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 04:42:04,975 INFO  - Completed. Exit code is 0
+2017-10-15 04:42:05,272 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 04:42:05,553 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 04:42:05,553 DEBUG - ProcessKill 7996
+2017-10-15 04:42:05,818 INFO  - Stopping process 7996
+2017-10-15 04:42:05,818 INFO  - Send SIGINT 7996
+2017-10-15 04:42:05,833 INFO  - SIGINT to7996 successful
+2017-10-15 04:42:05,849 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 04:42:05,849 INFO  - Completed. Exit code is 0
+2017-10-15 04:42:06,941 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 04:42:06,972 INFO  - Completed. Exit code is 0
+2017-10-15 04:42:07,440 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:07,471 INFO  - Extension loaded: killOnStartup
+2017-10-15 04:42:07,487 DEBUG - Checking the potentially runaway process with PID=7996
+2017-10-15 04:42:07,503 DEBUG - No runaway process with PID=7996. The process has been already stopped.
+2017-10-15 04:42:07,503 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:07,534 INFO  - Started process 4844
+2017-10-15 04:42:07,534 INFO  - Recording PID of the started process:4844. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 04:42:11,562 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 04:42:11,612 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 04:42:12,098 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:12,114 INFO  - Extension loaded: killOnStartup
+2017-10-15 04:42:12,129 DEBUG - Checking the potentially runaway process with PID=4844
+2017-10-15 04:42:12,145 DEBUG - No runaway process with PID=4844. The process has been already stopped.
+2017-10-15 04:42:12,145 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:12,161 INFO  - Started process 5668
+2017-10-15 04:42:12,161 INFO  - Recording PID of the started process:5668. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 04:42:15,443 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 04:42:15,521 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 04:42:16,038 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:16,070 INFO  - Extension loaded: killOnStartup
+2017-10-15 04:42:16,085 DEBUG - Checking the potentially runaway process with PID=5668
+2017-10-15 04:42:16,101 DEBUG - No runaway process with PID=5668. The process has been already stopped.
+2017-10-15 04:42:16,101 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 04:42:16,116 INFO  - Started process 9220
+2017-10-15 04:42:16,116 INFO  - Recording PID of the started process:9220. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 04:42:20,531 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 04:42:20,919 WARN  - User requested the status
+2017-10-15 04:42:20,951 INFO  - Completed. Exit code is 0
+2017-10-15 05:10:33,975 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:10:34,225 INFO  - Completed. Exit code is 0
+2017-10-15 05:10:34,459 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:10:34,708 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 05:10:34,708 DEBUG - ProcessKill 9220
+2017-10-15 05:10:34,974 INFO  - Stopping process 9220
+2017-10-15 05:10:34,974 INFO  - Send SIGINT 9220
+2017-10-15 05:10:35,005 INFO  - SIGINT to9220 successful
+2017-10-15 05:10:35,005 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 05:10:35,005 INFO  - Completed. Exit code is 0
+2017-10-15 05:10:36,097 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:36,128 INFO  - Completed. Exit code is 0
+2017-10-15 05:10:36,612 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:36,627 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:36,643 DEBUG - Checking the potentially runaway process with PID=9220
+2017-10-15 05:10:36,658 DEBUG - No runaway process with PID=9220. The process has been already stopped.
+2017-10-15 05:10:36,658 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:36,674 INFO  - Started process 7508
+2017-10-15 05:10:36,674 INFO  - Recording PID of the started process:7508. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:39,912 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:39,959 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:40,427 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:40,427 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:40,443 DEBUG - Checking the potentially runaway process with PID=7508
+2017-10-15 05:10:40,458 DEBUG - No runaway process with PID=7508. The process has been already stopped.
+2017-10-15 05:10:40,458 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:40,474 INFO  - Started process 7012
+2017-10-15 05:10:40,474 INFO  - Recording PID of the started process:7012. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:43,702 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:43,780 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:44,264 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:44,280 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:44,295 DEBUG - Checking the potentially runaway process with PID=7012
+2017-10-15 05:10:44,311 DEBUG - No runaway process with PID=7012. The process has been already stopped.
+2017-10-15 05:10:44,311 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:44,326 INFO  - Started process 6228
+2017-10-15 05:10:44,342 INFO  - Recording PID of the started process:6228. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:47,492 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:47,554 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:48,007 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:48,022 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:48,038 DEBUG - Checking the potentially runaway process with PID=6228
+2017-10-15 05:10:48,038 DEBUG - No runaway process with PID=6228. The process has been already stopped.
+2017-10-15 05:10:48,038 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:48,053 INFO  - Started process 10036
+2017-10-15 05:10:48,069 INFO  - Recording PID of the started process:10036. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:51,260 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:51,323 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:51,775 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:51,791 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:51,806 DEBUG - Checking the potentially runaway process with PID=10036
+2017-10-15 05:10:51,822 DEBUG - No runaway process with PID=10036. The process has been already stopped.
+2017-10-15 05:10:51,822 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:51,837 INFO  - Started process 7280
+2017-10-15 05:10:51,837 INFO  - Recording PID of the started process:7280. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:55,107 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:55,154 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:55,622 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:55,653 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:55,668 DEBUG - Checking the potentially runaway process with PID=7280
+2017-10-15 05:10:55,684 DEBUG - No runaway process with PID=7280. The process has been already stopped.
+2017-10-15 05:10:55,684 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:55,715 INFO  - Started process 6108
+2017-10-15 05:10:55,715 INFO  - Recording PID of the started process:6108. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:10:59,071 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:10:59,118 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:10:59,570 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:59,586 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:10:59,601 DEBUG - Checking the potentially runaway process with PID=6108
+2017-10-15 05:10:59,617 DEBUG - No runaway process with PID=6108. The process has been already stopped.
+2017-10-15 05:10:59,617 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:10:59,648 INFO  - Started process 9064
+2017-10-15 05:10:59,648 INFO  - Recording PID of the started process:9064. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:11:03,245 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:11:03,308 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:11:03,791 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:03,807 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:11:03,823 DEBUG - Checking the potentially runaway process with PID=9064
+2017-10-15 05:11:03,823 DEBUG - No runaway process with PID=9064. The process has been already stopped.
+2017-10-15 05:11:03,823 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:03,854 INFO  - Started process 8944
+2017-10-15 05:11:03,854 INFO  - Recording PID of the started process:8944. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:11:07,232 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:11:07,295 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:11:07,778 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:07,810 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:11:07,825 DEBUG - Checking the potentially runaway process with PID=8944
+2017-10-15 05:11:07,841 DEBUG - No runaway process with PID=8944. The process has been already stopped.
+2017-10-15 05:11:07,841 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:07,856 INFO  - Started process 1612
+2017-10-15 05:11:07,872 INFO  - Recording PID of the started process:1612. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:11:11,070 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:11:11,117 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:11:11,585 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:11,600 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:11:11,616 DEBUG - Checking the potentially runaway process with PID=1612
+2017-10-15 05:11:11,631 DEBUG - No runaway process with PID=1612. The process has been already stopped.
+2017-10-15 05:11:11,631 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:11:11,663 INFO  - Started process 6940
+2017-10-15 05:11:11,663 INFO  - Recording PID of the started process:6940. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:11:16,419 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:11:16,774 WARN  - User requested the status
+2017-10-15 05:11:16,794 INFO  - Completed. Exit code is 0
+2017-10-15 05:37:47,473 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:37:47,722 INFO  - Completed. Exit code is 0
+2017-10-15 05:37:48,044 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:37:48,329 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 05:37:48,329 DEBUG - ProcessKill 6940
+2017-10-15 05:37:48,729 INFO  - Stopping process 6940
+2017-10-15 05:37:48,737 INFO  - Send SIGINT 6940
+2017-10-15 05:37:48,764 INFO  - SIGINT to6940 successful
+2017-10-15 05:37:48,775 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 05:37:48,777 INFO  - Completed. Exit code is 0
+2017-10-15 05:37:49,859 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:37:49,904 INFO  - Completed. Exit code is 0
+2017-10-15 05:37:49,925 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:37:50,400 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:50,414 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:37:50,422 DEBUG - Checking the potentially runaway process with PID=6940
+2017-10-15 05:37:50,431 DEBUG - No runaway process with PID=6940. The process has been already stopped.
+2017-10-15 05:37:50,432 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:50,446 INFO  - Started process 8140
+2017-10-15 05:37:50,450 INFO  - Recording PID of the started process:8140. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:37:53,758 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:37:53,810 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:37:54,303 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:54,325 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:37:54,345 DEBUG - Checking the potentially runaway process with PID=8140
+2017-10-15 05:37:54,358 DEBUG - No runaway process with PID=8140. The process has been already stopped.
+2017-10-15 05:37:54,359 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:54,383 INFO  - Started process 4580
+2017-10-15 05:37:54,390 INFO  - Recording PID of the started process:4580. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:37:57,748 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:37:57,797 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:37:58,253 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:58,275 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:37:58,297 DEBUG - Checking the potentially runaway process with PID=4580
+2017-10-15 05:37:58,311 DEBUG - No runaway process with PID=4580. The process has been already stopped.
+2017-10-15 05:37:58,312 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:37:58,336 INFO  - Started process 1740
+2017-10-15 05:37:58,343 INFO  - Recording PID of the started process:1740. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:38:01,757 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:38:01,819 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:38:02,278 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:02,301 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:38:02,319 DEBUG - Checking the potentially runaway process with PID=1740
+2017-10-15 05:38:02,337 DEBUG - No runaway process with PID=1740. The process has been already stopped.
+2017-10-15 05:38:02,339 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:02,362 INFO  - Started process 8768
+2017-10-15 05:38:02,369 INFO  - Recording PID of the started process:8768. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:38:05,942 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:38:06,016 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:38:06,518 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:06,540 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:38:06,560 DEBUG - Checking the potentially runaway process with PID=8768
+2017-10-15 05:38:06,574 DEBUG - No runaway process with PID=8768. The process has been already stopped.
+2017-10-15 05:38:06,575 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:06,600 INFO  - Started process 6064
+2017-10-15 05:38:06,609 INFO  - Recording PID of the started process:6064. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:38:09,950 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 05:38:10,025 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 05:38:10,529 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:10,552 INFO  - Extension loaded: killOnStartup
+2017-10-15 05:38:10,569 DEBUG - Checking the potentially runaway process with PID=6064
+2017-10-15 05:38:10,587 DEBUG - No runaway process with PID=6064. The process has been already stopped.
+2017-10-15 05:38:10,589 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 05:38:10,612 INFO  - Started process 4124
+2017-10-15 05:38:10,618 INFO  - Recording PID of the started process:4124. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 05:38:15,456 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 05:38:15,856 WARN  - User requested the status
+2017-10-15 05:38:15,867 INFO  - Completed. Exit code is 0
+2017-10-15 06:05:43,614 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 06:05:43,910 INFO  - Completed. Exit code is 0
+2017-10-15 06:05:44,144 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 06:05:44,503 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 06:05:44,503 DEBUG - ProcessKill 4124
+2017-10-15 06:05:44,831 INFO  - Stopping process 4124
+2017-10-15 06:05:44,831 INFO  - Send SIGINT 4124
+2017-10-15 06:05:44,846 INFO  - SIGINT to4124 successful
+2017-10-15 06:05:44,862 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 06:05:44,862 INFO  - Completed. Exit code is 0
+2017-10-15 06:05:46,048 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:05:46,094 INFO  - Completed. Exit code is 0
+2017-10-15 06:05:46,625 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:05:46,640 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:05:46,656 DEBUG - Checking the potentially runaway process with PID=4124
+2017-10-15 06:05:46,672 DEBUG - No runaway process with PID=4124. The process has been already stopped.
+2017-10-15 06:05:46,672 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:05:46,703 INFO  - Started process 1776
+2017-10-15 06:05:46,703 INFO  - Recording PID of the started process:1776. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:05:53,954 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:05:54,027 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:05:54,521 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:05:54,544 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:05:54,565 DEBUG - Checking the potentially runaway process with PID=1776
+2017-10-15 06:05:54,579 DEBUG - No runaway process with PID=1776. The process has been already stopped.
+2017-10-15 06:05:54,580 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:05:54,603 INFO  - Started process 7216
+2017-10-15 06:05:54,611 INFO  - Recording PID of the started process:7216. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:03,018 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:03,084 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:03,529 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:03,546 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:03,562 DEBUG - Checking the potentially runaway process with PID=7216
+2017-10-15 06:06:03,576 DEBUG - No runaway process with PID=7216. The process has been already stopped.
+2017-10-15 06:06:03,577 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:03,603 INFO  - Started process 10124
+2017-10-15 06:06:03,610 INFO  - Recording PID of the started process:10124. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:06,607 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:06,652 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:07,093 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:07,115 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:07,133 DEBUG - Checking the potentially runaway process with PID=10124
+2017-10-15 06:06:07,151 DEBUG - No runaway process with PID=10124. The process has been already stopped.
+2017-10-15 06:06:07,152 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:07,176 INFO  - Started process 9812
+2017-10-15 06:06:07,182 INFO  - Recording PID of the started process:9812. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:10,344 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:10,390 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:10,861 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:10,882 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:10,903 DEBUG - Checking the potentially runaway process with PID=9812
+2017-10-15 06:06:10,917 DEBUG - No runaway process with PID=9812. The process has been already stopped.
+2017-10-15 06:06:10,918 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:10,941 INFO  - Started process 8936
+2017-10-15 06:06:10,948 INFO  - Recording PID of the started process:8936. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:14,396 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:14,469 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:14,957 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:14,980 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:15,000 DEBUG - Checking the potentially runaway process with PID=8936
+2017-10-15 06:06:15,015 DEBUG - No runaway process with PID=8936. The process has been already stopped.
+2017-10-15 06:06:15,016 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:15,040 INFO  - Started process 8128
+2017-10-15 06:06:15,047 INFO  - Recording PID of the started process:8128. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:18,751 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:18,796 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:19,269 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:19,287 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:19,303 DEBUG - Checking the potentially runaway process with PID=8128
+2017-10-15 06:06:19,317 DEBUG - No runaway process with PID=8128. The process has been already stopped.
+2017-10-15 06:06:19,318 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:19,342 INFO  - Started process 6384
+2017-10-15 06:06:19,348 INFO  - Recording PID of the started process:6384. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:22,650 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:22,708 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:23,158 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:23,180 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:23,201 DEBUG - Checking the potentially runaway process with PID=6384
+2017-10-15 06:06:23,215 DEBUG - No runaway process with PID=6384. The process has been already stopped.
+2017-10-15 06:06:23,216 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:23,239 INFO  - Started process 10204
+2017-10-15 06:06:23,246 INFO  - Recording PID of the started process:10204. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:36,110 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:36,165 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:36,654 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:36,676 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:36,694 DEBUG - Checking the potentially runaway process with PID=10204
+2017-10-15 06:06:36,712 DEBUG - No runaway process with PID=10204. The process has been already stopped.
+2017-10-15 06:06:36,713 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:36,737 INFO  - Started process 8684
+2017-10-15 06:06:36,744 INFO  - Recording PID of the started process:8684. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:40,358 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:40,432 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:40,901 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:40,915 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:40,927 DEBUG - Checking the potentially runaway process with PID=8684
+2017-10-15 06:06:40,936 DEBUG - No runaway process with PID=8684. The process has been already stopped.
+2017-10-15 06:06:40,936 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:40,955 INFO  - Started process 7012
+2017-10-15 06:06:40,961 INFO  - Recording PID of the started process:7012. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:44,413 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:44,483 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:44,969 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:44,991 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:45,011 DEBUG - Checking the potentially runaway process with PID=7012
+2017-10-15 06:06:45,025 DEBUG - No runaway process with PID=7012. The process has been already stopped.
+2017-10-15 06:06:45,026 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:45,050 INFO  - Started process 6008
+2017-10-15 06:06:45,056 INFO  - Recording PID of the started process:6008. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:48,730 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:48,804 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:49,303 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:49,320 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:49,332 DEBUG - Checking the potentially runaway process with PID=6008
+2017-10-15 06:06:49,340 DEBUG - No runaway process with PID=6008. The process has been already stopped.
+2017-10-15 06:06:49,341 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:49,356 INFO  - Started process 9328
+2017-10-15 06:06:49,360 INFO  - Recording PID of the started process:9328. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:52,903 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:52,952 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:53,443 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:53,461 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:53,477 DEBUG - Checking the potentially runaway process with PID=9328
+2017-10-15 06:06:53,491 DEBUG - No runaway process with PID=9328. The process has been already stopped.
+2017-10-15 06:06:53,493 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:53,516 INFO  - Started process 9356
+2017-10-15 06:06:53,522 INFO  - Recording PID of the started process:9356. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:06:56,945 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:06:57,018 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:06:57,534 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:57,556 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:06:57,569 DEBUG - Checking the potentially runaway process with PID=9356
+2017-10-15 06:06:57,580 DEBUG - No runaway process with PID=9356. The process has been already stopped.
+2017-10-15 06:06:57,581 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:06:57,595 INFO  - Started process 9944
+2017-10-15 06:06:57,599 INFO  - Recording PID of the started process:9944. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:07:00,886 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:07:00,933 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:07:01,417 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:07:01,439 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:07:01,459 DEBUG - Checking the potentially runaway process with PID=9944
+2017-10-15 06:07:01,473 DEBUG - No runaway process with PID=9944. The process has been already stopped.
+2017-10-15 06:07:01,475 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:07:01,499 INFO  - Started process 10228
+2017-10-15 06:07:01,506 INFO  - Recording PID of the started process:10228. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:07:04,941 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 06:07:04,986 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-15 06:07:05,438 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:07:05,452 INFO  - Extension loaded: killOnStartup
+2017-10-15 06:07:05,462 DEBUG - Checking the potentially runaway process with PID=10228
+2017-10-15 06:07:05,474 DEBUG - No runaway process with PID=10228. The process has been already stopped.
+2017-10-15 06:07:05,475 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 06:07:05,490 INFO  - Started process 7940
+2017-10-15 06:07:05,494 INFO  - Recording PID of the started process:7940. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 06:07:09,716 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 06:07:09,957 WARN  - User requested the status
+2017-10-15 06:07:09,967 INFO  - Completed. Exit code is 0
+2017-10-15 08:19:26,251 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 08:19:26,485 INFO  - Completed. Exit code is 0
+2017-10-15 08:19:26,704 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 08:19:27,000 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 08:19:27,000 DEBUG - ProcessKill 7940
+2017-10-15 08:19:27,265 INFO  - Stopping process 7940
+2017-10-15 08:19:27,265 INFO  - Send SIGINT 7940
+2017-10-15 08:19:27,296 INFO  - SIGINT to7940 successful
+2017-10-15 08:19:27,296 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-15 08:19:27,296 INFO  - Completed. Exit code is 0
+2017-10-15 08:19:28,607 INFO  - Starting ServiceWrapper in the service mode
+2017-10-15 08:19:28,653 INFO  - Completed. Exit code is 0
+2017-10-15 08:19:29,059 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 08:19:29,075 INFO  - Extension loaded: killOnStartup
+2017-10-15 08:19:29,090 DEBUG - Checking the potentially runaway process with PID=7940
+2017-10-15 08:19:29,090 DEBUG - No runaway process with PID=7940. The process has been already stopped.
+2017-10-15 08:19:29,106 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-15 08:19:29,121 INFO  - Started process 6872
+2017-10-15 08:19:29,121 INFO  - Recording PID of the started process:6872. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-10-15 08:19:35,450 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-15 08:19:35,775 WARN  - User requested the status
+2017-10-15 08:19:35,783 INFO  - Completed. Exit code is 0
+2017-10-31 18:43:01,854 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-31 18:43:02,962 INFO  - Completed. Exit code is 0
+2017-10-31 18:43:03,305 INFO  - Starting ServiceWrapper in the CLI mode
+2017-10-31 18:43:03,820 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-31 18:43:03,820 DEBUG - ProcessKill 6872
+2017-10-31 18:43:04,584 INFO  - Stopping process 6872
+2017-10-31 18:43:04,584 INFO  - Send SIGINT 6872
+2017-10-31 18:43:04,678 INFO  - SIGINT to6872 successful
+2017-10-31 18:43:04,678 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-10-31 18:43:04,694 INFO  - Completed. Exit code is 0
+2017-10-31 18:43:05,333 INFO  - Starting ServiceWrapper in the service mode
+2017-10-31 18:43:05,380 INFO  - Completed. Exit code is 0
+2017-10-31 18:43:05,411 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-10-31 18:43:05,879 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-31 18:43:05,910 INFO  - Extension loaded: killOnStartup
+2017-10-31 18:43:05,926 DEBUG - Checking the potentially runaway process with PID=6872
+2017-10-31 18:43:05,942 DEBUG - No runaway process with PID=6872. The process has been already stopped.
+2017-10-31 18:43:05,942 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-10-31 18:43:06,160 INFO  - Completed. Exit code is 0
+2017-11-01 10:53:16,483 INFO  - Starting ServiceWrapper in the service mode
+2017-11-01 10:53:16,561 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-11-01 10:53:16,764 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-11-01 10:53:16,795 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:53:16,826 INFO  - Extension loaded: killOnStartup
+2017-11-01 10:53:16,842 DEBUG - Checking the potentially runaway process with PID=6872
+2017-11-01 10:53:16,857 DEBUG - No runaway process with PID=6872. The process has been already stopped.
+2017-11-01 10:53:16,857 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:53:16,873 INFO  - Completed. Exit code is 0
+2017-11-01 10:53:43,377 INFO  - Starting ServiceWrapper in the service mode
+2017-11-01 10:53:43,424 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-11-01 10:53:43,611 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-11-01 10:53:43,643 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:53:43,658 INFO  - Extension loaded: killOnStartup
+2017-11-01 10:53:43,674 DEBUG - Checking the potentially runaway process with PID=6872
+2017-11-01 10:53:43,689 DEBUG - No runaway process with PID=6872. The process has been already stopped.
+2017-11-01 10:53:43,689 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:53:43,705 INFO  - Completed. Exit code is 0
+2017-11-01 10:54:07,667 INFO  - Starting ServiceWrapper in the service mode
+2017-11-01 10:54:07,729 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-11-01 10:54:07,948 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-11-01 10:54:07,979 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:54:07,994 INFO  - Extension loaded: killOnStartup
+2017-11-01 10:54:08,010 DEBUG - Checking the potentially runaway process with PID=6872
+2017-11-01 10:54:08,010 DEBUG - No runaway process with PID=6872. The process has been already stopped.
+2017-11-01 10:54:08,010 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_131\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-11-01 10:54:08,026 INFO  - Completed. Exit code is 0
+2017-11-01 10:55:24,965 INFO  - Starting ServiceWrapper in the service mode
+2017-11-01 10:55:30,129 INFO  - Completed. Exit code is 0
+2017-12-20 10:07:32,339 DEBUG - Starting ServiceWrapper in the CLI mode
+2017-12-20 10:07:33,226 INFO  - Installing the service with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM'
+2017-12-20 10:07:33,309 DEBUG - Completed. Exit code is 0
+2017-12-20 10:07:34,344 DEBUG - Starting ServiceWrapper in the CLI mode
+2017-12-20 10:07:34,979 INFO  - Starting the service with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM'
+2017-12-20 10:07:35,847 INFO  - Starting ServiceWrapper in the service mode
+2017-12-20 10:07:36,029 DEBUG - Completed. Exit code is 0
+2017-12-20 10:07:36,292 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-12-20 10:07:36,363 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-20 10:07:36,385 INFO  - Extension loaded: killOnStartup
+2017-12-20 10:07:36,404 DEBUG - Checking the potentially runaway process with PID=6872
+2017-12-20 10:07:36,409 DEBUG - No runaway process with PID=6872. The process has been already stopped.
+2017-12-20 10:07:36,410 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-20 10:07:36,493 INFO  - Started process 3060
+2017-12-20 10:07:36,498 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2017-12-20 10:07:36,511 INFO  - Recording PID of the started process:3060. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-12-20 10:07:45,073 DEBUG - Starting ServiceWrapper in the CLI mode
+2017-12-20 10:07:45,665 DEBUG - User requested the status of the process with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM'
+2017-12-20 10:07:45,675 DEBUG - Completed. Exit code is 0
+2017-12-21 19:25:55,665 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-12-21 19:25:55,831 DEBUG - ProcessKill 3060
+2017-12-21 19:25:56,006 WARN  - Failed to locate children of the process with PID=3060. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHR(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2017-12-21 19:25:56,044 INFO  - Stopping process 3060
+2017-12-21 19:25:56,052 INFO  - Send SIGINT 3060
+2017-12-21 19:25:56,274 INFO  - SIGINT to3060 successful
+2017-12-21 19:25:56,274 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-12-21 19:25:56,274 DEBUG - Completed. Exit code is 0
+2017-12-21 19:26:50,985 INFO  - Starting ServiceWrapper in the service mode
+2017-12-21 19:26:51,110 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-12-21 19:28:22,697 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-12-21 19:28:23,103 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-21 19:28:23,103 INFO  - Extension loaded: killOnStartup
+2017-12-21 19:28:23,119 DEBUG - Checking the potentially runaway process with PID=3060
+2017-12-21 19:28:23,119 DEBUG - No runaway process with PID=3060. The process has been already stopped.
+2017-12-21 19:28:23,119 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-21 19:28:23,431 INFO  - Started process 3752
+2017-12-21 19:28:23,446 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2017-12-21 19:28:23,571 INFO  - Recording PID of the started process:3752. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-12-21 19:28:40,047 DEBUG - Starting ServiceWrapper in the CLI mode
+2017-12-21 19:28:40,565 DEBUG - User requested the status of the process with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM'
+2017-12-21 19:28:40,579 DEBUG - Completed. Exit code is 0
+2017-12-28 11:33:39,005 INFO  - Stopping jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-12-28 11:33:39,108 DEBUG - ProcessKill 3752
+2017-12-28 11:33:40,924 INFO  - Stopping process 3752
+2017-12-28 11:33:41,025 INFO  - Send SIGINT 3752
+2017-12-28 11:33:41,559 INFO  - SIGINT to3752 successful
+2017-12-28 11:33:41,608 INFO  - Finished jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM
+2017-12-28 11:33:42,054 DEBUG - Completed. Exit code is 0
+2017-12-28 11:34:47,832 INFO  - Starting ServiceWrapper in the service mode
+2017-12-28 11:34:48,019 INFO  - Downloading: https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar. failOnError=False
+2017-12-28 11:36:15,162 ERROR - Failed to download https://jenkins02.farmersinsurance.com:8443/jnlpJars/slave.jar to D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar
+System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at winsw.Download.Perform()
+   at winsw.WrapperService.OnStart(String[] _)
+2017-12-28 11:36:15,209 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-28 11:36:15,224 INFO  - Extension loaded: killOnStartup
+2017-12-28 11:36:15,255 DEBUG - Checking the potentially runaway process with PID=3752
+2017-12-28 11:36:15,255 DEBUG - No runaway process with PID=3752. The process has been already stopped.
+2017-12-28 11:36:15,255 INFO  - Starting C:\Program Files (x86)\Java\jre1.8.0_151\bin\java.exe -Xrs  -jar "D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\slave.jar" -jnlpUrl https://jenkins02.farmersinsurance.com:8443/computer/SalesforceCOE-SRM/slave-agent.jnlp -secret 00edf398d3bdcfaf8f59fddbcde87bfbfdf30341acb432211781a6337ea7b6d8
+2017-12-28 11:36:15,411 INFO  - Started process 3152
+2017-12-28 11:36:15,411 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2017-12-28 11:36:15,443 INFO  - Recording PID of the started process:3152. PID file destination is D:\JenkinsJobs\SlaveNodes\ServiceOps\SRM\jenkins_agent.pid
+2017-12-28 11:36:25,879 DEBUG - Starting ServiceWrapper in the CLI mode
+2017-12-28 11:36:26,505 DEBUG - User requested the status of the process with id 'jenkinsslave-D__JenkinsJobs_SlaveNodes_ServiceOps_SRM'
+2017-12-28 11:36:26,515 DEBUG - Completed. Exit code is 0
